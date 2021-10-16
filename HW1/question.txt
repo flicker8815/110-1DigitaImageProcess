@@ -1,0 +1,17 @@
+We have a CSV file, which contains 9x9 metrics of 0 and 1. You should code a Matlab .m file to solute the 4-adjacency and 8-adjacency problems.
+The Matlab .m file name and the function name should be "ComputeAdjacency". 
+The function has two inputs first is "x" to represent what kind of adjacency it can be 4 or 8 and the second input is "csvFilePath" which means the CSV file you want to read, the output value of the function is your result.
+
+Ex: function result = ComputeAdjacency(x, csvFilePath)
+
+I will type this command to check your answer
+>> ComputeAdjacency(4, "9x9Sample.csv")
+	result = ...
+
+You can read CSV files this way:
+inputArray = csvread('9x9sample.csv') 
+
+If you want to code with another way, please give the description file to let me can execute your program.
+If I can't execute your program correctly, you can't get any score for this homework.
+
+The assignment is due October 20th, 2021 11:59PM. Please only upload your .m file and compress to zip file with "Name_HW1" as your file name.
